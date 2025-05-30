@@ -1048,6 +1048,22 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .navbar {
+        height: 60px; /* Reduced height for mobile */
+    }
+    
+    .navbar-links {
+        top: 60px; /* Adjusted to match navbar height */
+        height: calc(100vh - 60px);
+    }
+    
+    .hero {
+        padding-top: 150px; /* Adjusted to match mobile navbar height */
+        height: 140vh;
+    }
+}
+
+@media (max-width: 768px) {
     .navbar-links {
         position: fixed;
         top: 80px;
