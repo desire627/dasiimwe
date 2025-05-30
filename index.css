@@ -603,42 +603,42 @@ section {
 
 .html-progress {
     width: 0;
-    background-color: var(--html-color);
+    background-color: #800000;
 }
 
 .css-progress {
     width: 0;
-    background-color: var(--css-color);
+    background-color: #800000;
 }
 
 .js-progress {
     width: 0;
-    background-color: var(--js-color);
+    background-color: #800000;
 }
 
 .react-progress {
     width: 0;
-    background-color: var(--react-color);
+    background-color: #800000;
 }
 
 .node-progress {
     width: 0;
-    background-color: var(--node-color);
+    background-color: #800000;
 }
 
 .express-progress {
     width: 0;
-    background-color: var(--secondary-color);
+    background-color: #800000;
 }
 
 .mongo-progress {
     width: 0;
-    background-color: var(--success-color);
+    background-color: #800000;
 }
 
 .python-progress {
     width: 0;
-    background-color: var(--python-color);
+    background-color: #800000;
 }
 
 /* Languages Section */
@@ -1290,23 +1290,23 @@ footer {
 
 /* Different colors for each skill circle */
 .soft-skill-item:nth-child(1) .circle-fill {
-    stroke: #3b82f6; /* Communication */
+    stroke: #800000; /* Communication */
 }
 
 .soft-skill-item:nth-child(2) .circle-fill {
-    stroke: #10b981; /* Teamwork */
+    stroke: #800000; /* Teamwork */
 }
 
 .soft-skill-item:nth-child(3) .circle-fill {
-    stroke: #f59e0b; /* Problem Solving */
+    stroke: #800000; /* Problem Solving */
 }
 
 .soft-skill-item:nth-child(4) .circle-fill {
-    stroke: #8b5cf6; /* Adaptability */
+    stroke: #800000; /* Adaptability */
 }
 
 .soft-skill-item:nth-child(5) .circle-fill {
-    stroke: #ec4899; /* Time Management */
+    stroke: #800000; /* Time Management */
 }
 
 @keyframes circle-fill-animation {

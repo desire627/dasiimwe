@@ -115,13 +115,13 @@ document.addEventListener('DOMContentLoaded', function() {
     observer.observe(skillsSection);
 
     // CV Download button
-    const downloadCvBtn = document.getElementById('download-cv');
-    downloadCvBtn.addEventListener('click', function(e) {
-        e.preventDefault();
-        // In a real implementation, this would link to your actual CV file
-        alert('CV download would start here in a real implementation.');
-        // window.location.href = 'path-to-your-cv.pdf';
-    });
+    // const downloadCvBtn = document.getElementById('download-cv');
+    // downloadCvBtn.addEventListener('click', function(e) {
+    //     e.preventDefault();
+    //     // In a real implementation, this would link to your actual CV file
+    //     alert('CV download would start here in a real implementation.');
+    //     // window.location.href = 'path-to-your-cv.pdf';
+    // });
 
     // Set current year in footer
     document.getElementById('year').textContent = new Date().getFullYear();
